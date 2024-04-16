@@ -1,4 +1,5 @@
 // background.js
+// test
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.action === "captureVisibleTab") {
       const { pixelRatio } = message;
